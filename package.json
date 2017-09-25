@@ -1,0 +1,20 @@
+{
+  "name": "tsrpc-protocol",
+  "version": "0.1.1",
+  "description": "Base protocol for tsrpc",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf dist && tsc -d && cp package.json LICENSE README.md dist/ && cp src/*.d.ts dist/src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/k8w/tsrpc-protocol.git"
+  },
+  "keywords": [
+    "k8w",
+    "tsrpc"
+  ],
+  "author": "k8w",
+  "license": "Apache-2.0",
+  "typings": "index.d.ts"
+}
