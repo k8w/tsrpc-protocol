@@ -1,6 +1,6 @@
 {
   "name": "tsrpc-protocol",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Base protocol for tsrpc",
   "main": "index.js",
   "scripts": {

@@ -1,6 +1,6 @@
-import Protocol from './src/Protocol';
-import Request from './src/Request';
-import Response from './src/Response';
+import TsRpcPtl from './src/TsRpcPtl';
+import TsRpcReq from './src/TsRpcReq';
+import TsRpcRes from './src/TsRpcRes';
 import TsRpcError from './src/TsRpcError';
-export { Protocol as TsRpcPtl, Request as TsRpcReq, Response as TsRpcRes, TsRpcError };
-export default Protocol;
+export default TsRpcPtl;
+export { TsRpcPtl, TsRpcReq, TsRpcRes, TsRpcError };

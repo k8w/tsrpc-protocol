@@ -1,4 +1,4 @@
-export default class Protocol<Req, Res> {
+export default class TsRpcPtl<Req, Res> {
     req: Req;
     res: Res;
     
