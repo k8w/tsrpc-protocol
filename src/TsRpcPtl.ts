@@ -14,7 +14,7 @@ export default class TsRpcPtl<Req, Res> {
     constructor(filename: string, conf: PtlConf = {}) {
         this.filename = filename;
 
-        let nameMatch = filename.match(/Ptl(\w+)\.ts/);
+        let nameMatch = filename.match(/Ptl(\w+)\.[jt]s/);
         if (!nameMatch) {
             throw new Error('Invalid protocol filename, must with prefix `Ptl`')
         }
