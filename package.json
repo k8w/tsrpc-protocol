@@ -1,10 +1,10 @@
 {
   "name": "tsrpc-protocol",
-  "version": "0.2.2",
+  "version": "0.2.4",
   "description": "Base protocol for tsrpc",
   "main": "index.js",
   "scripts": {
-    "build": "rm -rf dist && tsc -d && cp package.json LICENSE README.md dist/ && cp src/*.d.ts dist/src/"
+    "build": "rm -rf dist && tsc -d && cp index.d.ts package.json LICENSE README.md dist/ && cp src/*.d.ts dist/src/"
   },
   "repository": {
     "type": "git",
