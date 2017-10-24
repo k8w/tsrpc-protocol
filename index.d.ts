@@ -5,4 +5,6 @@ import TsRpcRes from './src/TsRpcRes';
 export { TsRpcPtl, TsRpcError, TsRpcReq, TsRpcRes };
 export default TsRpcPtl;
 
-declare var __dirname: string;
+declare global {
+    var __filename: string;
+}
