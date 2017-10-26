@@ -1,6 +1,6 @@
 {
   "name": "tsrpc-protocol",
-  "version": "0.2.7",
+  "version": "0.3.0",
   "description": "Base protocol for tsrpc",
   "main": "index.js",
   "scripts": {
@@ -16,5 +16,8 @@
   ],
   "author": "k8w",
   "license": "Apache-2.0",
-  "typings": "index.d.ts"
+  "typings": "index.d.ts",
+  "dependencies": {
+    "k8w-super-promise": "^0.2.0"
+  }
 }
