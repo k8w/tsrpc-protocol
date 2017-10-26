@@ -12,8 +12,4 @@ export default class TsRpcError extends Error {
             (this as any).__proto__ = TsRpcError.prototype;
         }
     }
-
-    sayHello() {
-        console.log("hello " + this.message);
-    }
 }
