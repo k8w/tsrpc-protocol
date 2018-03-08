@@ -1,7 +1,7 @@
-import TsRpcPtl from './src/TsRpcPtl';
-import TsRpcError from './src/TsRpcError';
-import TsRpcReq from './src/TsRpcReq';
-import TsRpcRes from './src/TsRpcRes';
-import ITsRpcClient from './src/ITsRpcClient';
-export { TsRpcPtl, TsRpcError, TsRpcReq, TsRpcRes, ITsRpcClient };
-export default TsRpcPtl;
+import TsrpcPtl from './src/TsrpcPtl';
+import TsrpcError from './src/TsrpcError';
+import TsrpcReq from './src/TsrpcReq';
+import TsrpcRes from './src/TsrpcRes';
+import ITsrpcClient from './src/ITsrpcClient';
+export { TsrpcPtl, TsrpcError, TsrpcReq, TsrpcRes, ITsrpcClient };
+export default TsrpcPtl;
