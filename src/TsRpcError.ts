@@ -1,4 +1,4 @@
-export default class TsRpcError extends Error {
+export default class TsrpcError extends Error {
     info: any;
 
     constructor(message: string, info?: any) {
@@ -6,10 +6,10 @@ export default class TsRpcError extends Error {
         this.info = info;
 
         if ((Object as any).setPrototypeOf) {
-            (Object as any).setPrototypeOf(this, TsRpcError.prototype);
+            (Object as any).setPrototypeOf(this, TsrpcError.prototype);
         }
         else {
-            (this as any).__proto__ = TsRpcError.prototype;
+            (this as any).__proto__ = TsrpcError.prototype;
         }
     }
 }

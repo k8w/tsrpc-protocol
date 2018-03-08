@@ -1,6 +1,6 @@
-export default class TsRpcPtl<Req, Res> {
-    req: Req;
-    res: Res;
+export default class TsrpcPtl<Req, Res> {
+    req!: Req;
+    res!: Res;
     
     readonly name: string;
     readonly filename: string;

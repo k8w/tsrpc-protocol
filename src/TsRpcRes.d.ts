@@ -1,4 +1,4 @@
-export default interface TsRpcRes {
+export default interface TsrpcRes {
     /**
      * Error message (if error), is `undefined` when success
      */
